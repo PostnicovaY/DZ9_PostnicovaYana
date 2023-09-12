@@ -8,10 +8,9 @@ int N = 4, M = 8;
 if (N > M) {
     Console.WriteLine(PrintNumber(M, N));
 }
-else if (N < M) {
+else {
     Console.WriteLine(PrintNumber(N, M));
 }
-else Console.WriteLine("Невозможно посчитать сумму чисел между элементами, т.к. они равны. ");
 
 int PrintNumber(int n, int m)
 {
